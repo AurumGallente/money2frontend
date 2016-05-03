@@ -1,0 +1,13 @@
+<div class="row-fluid" ng-controller="loginController">
+    <div class="col-xs-12">
+        <div class="center-block">            
+                <div class="form-group">
+                    <label for="email">email</label>
+                    <input type="email" class="form-control" id="email" name="email" placeholder="email" ng-model="l.email" required />
+                    <label for="password">password</label>
+                    <input type="password" class="form-control" id="password" name="password" placeholder="password" ng-model="l.password" required />
+                    <input type="button" ng-click="login(l)" class="btn" value="submit">
+                </div>            
+        </div>
+    </div>
+</div>
